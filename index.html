@@ -9,14 +9,16 @@
 </head>
 <body class="home-bg">
 
-    <div class="menu-container">
-        <div class="hamburger" onclick="toggleMenu()">☰</div>
-        <nav id="nav-menu" class="hidden">
-            <a href="pap.html">A minha PAP</a>
-            <a href="#">Portfólio (Behance)</a>
-            <a href="#">Contacto</a>
+    <header class="top-nav">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="pap.html">A minha PAP</a></li>
+                <li><a href="#">Portfólio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
         </nav>
-    </div>
+    </header>
 
     <main class="hero-content">
         <img src="assets/images/icon-192.png" alt="Logo" class="main-logo">
@@ -26,10 +28,5 @@
 
     <footer>Powered by Lucas Silva</footer>
 
-    <script>
-        function toggleMenu() {
-            document.getElementById('nav-menu').classList.toggle('hidden');
-        }
-    </script>
 </body>
 </html>
