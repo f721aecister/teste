@@ -12,7 +12,7 @@ body {
 
 /* --- Ecrã Inicial --- */
 .home-bg {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), 
                 url('assets/images/pap-preview.png');
     background-size: cover;
     background-position: center;
