@@ -4,7 +4,8 @@ body { font-family: 'Segoe UI', sans-serif; background-color: #1a1a1a; color: wh
 
 /* Ecrã Inicial */
 .home-bg {
-    background: url('assets/images/pap-preview.png');
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+                url('assets/images/pap-preview.png');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
