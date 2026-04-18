@@ -13,36 +13,12 @@ body { font-family: 'Segoe UI', sans-serif; background-color: #1a1a1a; color: wh
     flex-direction: column;
 }
 
-/* --- Novo Menu Minimalista (Estilo Marta Craft) --- */
-.top-nav {
-    padding: 30px 20px;
-    width: 100%;
-}
+.menu-container { padding: 20px; }
+.hamburger { font-size: 30px; cursor: pointer; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); }
+.hidden { display: none; }
+#nav-menu { background: rgba(255, 255, 255, 0.95); padding: 20px; border-radius: 10px; width: 90%; margin: 10px auto; }
+#nav-menu a { display: block; color: black; padding: 10px; text-decoration: none; font-weight: bold; }
 
-.nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    flex-wrap: wrap; /* Para não quebrar o layout em ecrãs muito pequenos */
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 300;
-    transition: opacity 0.3s;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-}
-
-.nav-links a:hover {
-    opacity: 0.7;
-}
-
-/* --- Hero Content --- */
 .hero-content {
     flex-grow: 1;
     display: flex;
@@ -56,6 +32,7 @@ body { font-family: 'Segoe UI', sans-serif; background-color: #1a1a1a; color: wh
 .main-logo { width: 120px; border-radius: 20px; margin-bottom: 20px; }
 
 /* --- Página PAP --- */
+/* Garantir que o header e a main da página PAP centralizam tudo */
 header { text-align: center; padding: 30px 20px 10px 20px; }
 header .bio { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 5px; }
 
@@ -74,7 +51,7 @@ header .bio { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 5px; }
 .pap-image { width: 90%; max-width: 400px; display: block; margin: 0 auto 20px auto; border-radius: 15px; }
 .pap-text { font-size: 16px; line-height: 1.6; max-width: 500px; margin: 0 auto; padding: 10px; text-align: justify; }
 
-/* --- Botão e Rodapé --- */
+/* Botão e Rodapé */
 .btn { 
     display: block; 
     width: 80%; 
@@ -89,4 +66,4 @@ header .bio { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 5px; }
     font-weight: bold; 
 }
 
-footer { text-align: center; color: rgba(255,255,255,0.7); font-size: 10px; padding: 10px; margin-top: auto; }
+footer { text-align: center; color: rgba(255,255,255,0.7); font-size: 10px; padding: 10px; margin-top: auto; } 
